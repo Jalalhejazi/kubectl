@@ -1,7 +1,7 @@
 # kubectl
 
 
-# [Kubernetes] deployment from docker Registry ( kubectl )
+# [Kubernetes] deployment from docker Registry ( AutoGenerate YAML for Deployment )
 
 ```powershell
 # read the manual for options
@@ -10,7 +10,8 @@ kubectl create deployment --help
 # =========================================================
 
 
-# Create Deployment directly from image registry
+# YAML AutoGenerate Deployment directly from image registry
+# Creating YAML manifests from scratch is time-consuming and error-prone !!
 kubectl create deployment kursus-app-2020 --image=jalalhejazi/angular-kursus-2020:latest
 
 # Get Deploy
